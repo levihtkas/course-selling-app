@@ -37,7 +37,7 @@ export default function CourseCardClient({Img,course_id,creator,title}:PropInter
   <h3 className="text-lg font-semibold ">{title}</h3>
   <p className="text-sm text-gray-500"> By {creator}</p>
 
-   <Button label="Submit" onClick={()=>{AddtoCartSubmit(course_id)}}/>
+   <Button label="Add to Cart" onClick={()=>{AddtoCartSubmit(course_id)}}/>
 
 </div>
 }
